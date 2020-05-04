@@ -1,0 +1,93 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Slim",
+      "type": "recipe",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slim"
+    },
+    {
+      "name": "SquidSlimeDrop",
+      "type": "loottable",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "squid_slime_drop"
+    },
+    {
+      "name": "Sliem",
+      "type": "achievement",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sliem"
+    },
+    {
+      "name": "EdibleSlimeFoodEaten",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "edible_slime_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EdibleSlime",
+      "type": "food",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "edible_slime"
+    },
+    {
+      "name": "EdibleSlimeRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "edible_slime_recipe"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "advancements.sliem.title": "Obtain slime",
+      "advancements.sliem.descr": "Aquire slime",
+      "item.slimethings.edible_slime": "Slimefruit"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "slimethings",
+    "modName": "SlimeThings",
+    "version": "1.0.0",
+    "author": "Nick, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "modElementsPackage": "net.slimethings",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000318613
+}

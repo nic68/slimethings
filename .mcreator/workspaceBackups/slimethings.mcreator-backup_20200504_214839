@@ -1,0 +1,57 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Slim",
+      "type": "recipe",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "slim"
+    },
+    {
+      "name": "SquidSlimeDrop",
+      "type": "loottable",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "squid_slime_drop"
+    },
+    {
+      "name": "Sliem",
+      "type": "achievement",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "sliem"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "advancements.sliem.title": "Slime",
+      "advancements.sliem.descr": "Obtain slime"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "slimethings",
+    "modName": "SlimeThings",
+    "version": "1.0.0",
+    "author": "Nick, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "modElementsPackage": "net.slimethings",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000318613
+}
